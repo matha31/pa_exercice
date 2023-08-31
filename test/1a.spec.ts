@@ -37,7 +37,6 @@ describe('getReadingsForSensorId', () => {
     const sensorId = 1;
 
     const result = getReadingsForSensorId(sensorId, readings);
-    console.log('result', result);
     expect(result).to.eql([]);
   });
 
